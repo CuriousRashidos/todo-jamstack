@@ -60,7 +60,7 @@ export default function Home({ initialTodos, user }) {
                     </>
                 ) : (
                     <p className="text-center mt-4">
-                        Please login to save todos!
+                       Sorry, don't know you
                     </p>
                 )}
             </main>
