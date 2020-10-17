@@ -5,7 +5,7 @@ export default initAuth0({
     clientId: process.env.AUTH0_CLIENT_ID,
     clientSecret: process.env.AUTH0_CLIENT_SECRET,
     redirectUri: 'https://todo-app-jamstack-pzfbtac44.vercel.app/api/callback',
-    postLogoutRedirectUri: 'https://todo-app-jamstack-pzfbtac44.vercel.app/',
+    postLogoutRedirectUri: 'https://todo-app-jamstack-pzfbtac44.vercel.app',
     scope: 'openid profile',
     session: {
         // The secret used to encrypt the cookie.
