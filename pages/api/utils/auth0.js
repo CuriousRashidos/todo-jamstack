@@ -4,7 +4,7 @@ export default initAuth0({
     domain: process.env.AUTH0_DOMAIN,
     clientId: process.env.AUTH0_CLIENT_ID,
     clientSecret: process.env.AUTH0_CLIENT_SECRET,
-    redirectUri: 'https://todo-app-jamstack.zrf11.vercel.app//api/callback',
+    redirectUri: 'https://todo-app-jamstack.zrf11.vercel.app/api/callback',
     postLogoutRedirectUri: 'https://todo-app-jamstack.zrf11.vercel.app/',
     scope: 'openid profile',
     session: {
